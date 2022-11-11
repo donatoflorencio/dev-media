@@ -22,7 +22,6 @@ h1#titulo-principal {
     font-weight: bolder;
     text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.301);
     padding-top: 30px;
-    padding-top: 30px;
     padding-bottom: 10px;
 }
 
@@ -37,61 +36,87 @@ div.principal {
 }
 h3.terceiro-sub-titulo {
     background-image: linear-gradient(to top, #016767, #04fcfc);
-    padding: 10px;
-    margin-top: 5px;
+    font-size: 2em;
+    padding: 30px 0px 30px 10px;
+    margin: 5px 0px 20px 0px;
+    border-radius: 0px 0px 10px 10px;
 }
 p.valor {
+    display: inline-block;
     font-size: 2em;
     font-weight: bolder;
-    padding: 10px;
+    padding: 20px;
+    border-bottom: 3px solid black;
 }
 .div-img1 {
     display: inline-block;
     position: relative;
     height: 300px;
+    width: 100vw;
 }
 .imagem1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(50%, -50%);
+    transform: translate(-50%, -50%);
     padding-bottom: 20px;
 }
 p.texto {
-    text-align: justify;
-    font-size: 1.2em;
+    text-align: start;
+    font-size: 1.3em;
     line-height: 1.5em;
-    padding: 0px 0px 40px 10px;
+    padding: 0px 10px 40px 10px;
 }
-a {
+div > a {
+    background-color: rgb(196, 196, 196);
     display: inline-block;
     font-size: 2em;
-    padding: 10px;
-    margin: 10px;
-    background-color: rgb(196, 196, 196);
     border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px 20px 10px;
+    text-decoration: none;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.405);
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.471);
+    
 }
-a:hover {
+div > a:hover {
     color: purple;
     font-size: 2.5em;
+    text-decoration: underline;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.593);
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.570);
 }
 .secundario {
     background-color: white;
     display: inline-block;
     position: relative;
-    height: 300px;
 }
 .div-img2 {
     display: inline-block;
     position: relative;
     height: 300px;
+    width: 100vw;
 }
 .imagem2 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(50%, -50%);
+    transform: translate(-50%, -50%);
     padding-bottom: 20px;
+}
+footer {
+    background-color: #016767;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px 0px 8px 8px;
+    margin-top: 3px;
+}
+
+footer a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
 }
 
 
