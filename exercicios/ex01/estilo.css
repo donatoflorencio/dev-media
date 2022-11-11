@@ -6,3 +6,93 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body#corpo {
+    background-color: black;
+}
+
+
+header.cabeca {
+    background-color: aqua;
+    text-align: center;
+}
+
+h1#titulo-principal {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: bolder;
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.301);
+    padding-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+h2#sub-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+div.principal {
+    background-color: white;
+}
+h3.terceiro-sub-titulo {
+    background-image: linear-gradient(to top, #016767, #04fcfc);
+    padding: 10px;
+    margin-top: 5px;
+}
+p.valor {
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 10px;
+}
+.div-img1 {
+    display: inline-block;
+    position: relative;
+    height: 300px;
+}
+.imagem1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+    padding-bottom: 20px;
+}
+p.texto {
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 0px 0px 40px 10px;
+}
+a {
+    display: inline-block;
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 10px;
+}
+a:hover {
+    color: purple;
+    font-size: 2.5em;
+}
+.secundario {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    height: 300px;
+}
+.div-img2 {
+    display: inline-block;
+    position: relative;
+    height: 300px;
+}
+.imagem2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+    padding-bottom: 20px;
+}
+
+
+
