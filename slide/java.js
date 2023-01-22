@@ -3,6 +3,7 @@ let contador = 1;
 setInterval(() => {
   document.getElementById('slide' + contador).checked = true
   contador ++;
+  
 
 if(contador > 5){
   contador = 1;
