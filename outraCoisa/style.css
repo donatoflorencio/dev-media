@@ -15,7 +15,7 @@ html,body {
 
 html {font-size: 62,5%;}
 
-.nav-header {
+.header {
   width: 100%;
   height: 80px;
   background-color: #000;
@@ -26,10 +26,20 @@ html {font-size: 62,5%;}
   padding: 0 200px;
 }
 
-.nav-header .logo {
+.header .logo {
   color: #fff;
 }
-.nav-menu .menu-burguer {
+
+.menu { 
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu .menu-burguer {
   display: block;
   width: 25px;
   height: 3.2px;
@@ -38,7 +48,7 @@ html {font-size: 62,5%;}
   position: relative;
 }
 
-.nav-menu .menu-burguer::after {
+.menu .menu-burguer::after {
   content: '';
   display: block;
   width: 25px;
@@ -49,7 +59,8 @@ html {font-size: 62,5%;}
   top: 10px;
 }
 
-.nav-menu .menu-burguer::before {
+.menu .menu-burguer::before {
+  position: relative;
   content: '';
   display: block;
   width: 25px;
@@ -58,6 +69,53 @@ html {font-size: 62,5%;}
   color: #000;
   position: absolute;
   top: -10px;
+}
+
+.menu-nav {
+  position: absolute;
+  top: 0;
+  left:50%;
+  transform: translateX(-50%);
+  width: 50vw;
+  height: 100vh;
+  background-color: #333333;
+  display: none;
+  transition: animacao .8s all;
+}
+
+@keyframes animacao {
+  0% {
+    left: 50%;
+  }
+  100% {
+    left: -50%;
+  }
+}
+
+.list-menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+.list-menu .list {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ccc6c6;
+  width: 100%;
+  text-align: center;
+  transition: .6s;
+}
+
+.list-menu .list:hover {
+  background-color: #535353;
+  padding: 10px 0;
+  cursor: pointer;
 }
 
 

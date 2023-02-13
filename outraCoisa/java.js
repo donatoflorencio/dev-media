@@ -1,7 +1,11 @@
-const btn = document.querySelector('#btn')
-const bodi = document.querySelector('#body')
+const menuBurguer = document.getElementById('menu-burguer')
+const nav = document.querySelector('#menu-nav')
+let animacao = false;
 
-btn.addEventListener('click', function() {
-  if(btn)
+
+
+menuBurguer.addEventListener("click", function() {
+ 
+
 })
 
