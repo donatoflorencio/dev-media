@@ -10,10 +10,10 @@
 <body>
   <header class="header">
     <h2 class="logo">logo</h2>
-    <div class="menu" id="menu-burguer">
+    <div class="menu" id="menu" onclick="Click()">
       <span class="menu-burguer">.</span>
     </div>
-    <nav class="menu-nav" id="menu-nav">
+    <nav class="menu-nav" id="menu-nav" tabindex="0" >
       <ul class="list-menu">
         <li class="list">Option</li>
         <li class="list">Config</li>
@@ -23,7 +23,8 @@
       </ul>
     </nav>
   </header>
-  <main class="container-one">
+  <main class="container-one" onclick="nClick()">
+    <div class="retangulo"></div>
   </main>
   <script src="java.js"></script>
 </body>

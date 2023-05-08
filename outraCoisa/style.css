@@ -74,23 +74,25 @@ html {font-size: 62,5%;}
 .menu-nav {
   position: absolute;
   top: 0;
-  left:50%;
+  left: -50%;
   transform: translateX(-50%);
   width: 50vw;
   height: 100vh;
   background-color: #333333;
-  display: none;
-  transition: animacao .8s all;
+  animation-duration: 2s;
 }
 
-@keyframes animacao {
-  0% {
-    left: 50%;
-  }
-  100% {
-    left: -50%;
-  }
+
+@keyframes aprendendo
+{
+from {
+  left: -50%;
 }
+to {
+  left: 50%;
+}
+}
+
 
 .list-menu {
   width: 100%;
@@ -117,6 +119,27 @@ html {font-size: 62,5%;}
   padding: 10px 0;
   cursor: pointer;
 }
+
+.container-one {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-color: #c4c4c4;
+}
+
+.retangulo {
+  width: 500px;
+  height: 300px;
+
+  border-radius: 0px 0px 180% 0%;
+
+  background-color: #333333;
+  position: fixed;
+
+  
+}
+
+
 
 
 

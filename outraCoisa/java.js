@@ -1,11 +1,56 @@
-const menuBurguer = document.getElementById('menu-burguer')
-const nav = document.querySelector('#menu-nav')
-let animacao = false;
+let nav = document.getElementById('menu-nav')
+let aprendendo = false
+
+function Click() {
+  aprendendo = !aprendendo
+
+
+  if(aprendendo) {
+
+    nav.style.left = '50%'
+
+    nav.style.animationName = "aprendendo"
+  } else{
+    nav.style.left = '-50%'
+
+    nav.style.animationName = ""
+  }
+}
+
+function nClick() {
+
+  if(aprendendo) {
+  
+    Click()
+  
+  }
+  
+  }
 
 
 
-menuBurguer.addEventListener("click", function() {
- 
 
-})
+
+
+
+
+
+
+
+
+// function Click() {
+//   if (menuOpen.style.left = '-50%') {
+//     menuOpen.style.left = '50%'
+//     menuOpen.style.animationName = 'aprendendo'
+
+
+//   }else {
+//     menuOpen.style.left = '-50%'
+//     menuOpen.style.animationName= ''
+//   }
+// }
+
+// function nClick() {
+//   menuOpen.style.left = '-50%'
+// }
 
